@@ -1,2 +1,2 @@
 # PaginaHTML
-Primer pagina web usando HTML y CSS 
+Primera pagina web usando HTML y CSS 
