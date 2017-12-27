@@ -5,8 +5,10 @@
 
 header{
 	width: 100%;
-	background: #1abc9c;
+	background: rgba(0,0,0,.8);
 	height: 70px;
+	position: fixed;
+	z-index: 10;
 }
 
 .ancho{
@@ -62,5 +64,6 @@ nav ul li a:hover {
 
 @font-face{
 	font-family: rale;
-	src: url(Fuentes/Raleway-Regular.ttf);
+	src: url(Raleway-Regular.ttf);
 }
+
