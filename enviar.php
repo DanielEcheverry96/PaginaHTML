@@ -1,5 +1,5 @@
 <?php
-	header("Content-type: text/html;charset=\"utf-8\"");
+	header("Content-type: text/html; charset=utf-8");
 	$nombre = $_POST['nombre'];
 	$mail = $_POST['email'];
 	$telefono = $_POST['telefono'];
