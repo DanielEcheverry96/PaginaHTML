@@ -2,6 +2,13 @@
 	margin-top: 50px;
 }
 
+.datos{
+	float: left;
+	width: 25%;
+	margin: auto;
+	color:#999;
+}
+
 .formulario{
 	float: left;
 	width: 50%;
@@ -26,6 +33,39 @@
 }
 
 .correr{
-	margin: 20px;
+	margin: 20px 20px;
 	padding: 10px;
+}
+
+.formu-ti{
+	margin: 0px 20px;
+	color: #444;
+}
+
+.datos-contacto{
+	list-style: none;
+	text-align: center;
+}
+
+.datos-contacto li{
+	color: #444;
+	padding-bottom: 5px;
+}
+
+.datos-contacto li i{
+	color: #85c34a;
+	font-size: 60px;
+}
+
+.limpia{
+	clear: both;
+}
+
+footer{
+	clear: both;
+	margin-top: 50px;
+	background: #000;
+	color: #85c34a;
+	text-align: center;
+	padding: 30px;
 }

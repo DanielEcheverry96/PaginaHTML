@@ -13,7 +13,7 @@
 	$mensaje .= "Su e-mail es: " . $mail . " \r\n";
 	$mensaje .= "Asunto: " . $asunto . " \r\n";
 	$mensaje .= "Telefono: " . $telefono . " \r\n";
-	$mensaje .= "Mensaje: " . $empresa . " \r\n";
+	$mensaje .= "Mensaje: " . $_POST['mensaje'] . " \r\n";
 	$mensaje .= "Enviado el " . date('d/m/Y', time());
 	$para = 'daniel.echeverry96@gmail.com';
 	$asunto = 'Mensaje de mi sitio web';

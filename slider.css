@@ -3,6 +3,7 @@
 	background-position: center;
 	background-attachment: contain;
 	background-size: cover;
+	width: 100%;
 }
 
 .ancho-letras{
@@ -25,7 +26,7 @@
 }
 
 .letras-slider p{
-	color: #000;
+	color: #fff;
 	font-family: rale;
 	font-size: 20px;
 	padding-top: 50px;
